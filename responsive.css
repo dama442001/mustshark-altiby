@@ -1,0 +1,399 @@
+/* ==========================================
+RESPONSIVE CSS
+Mostasharak Medical Clinic
+========================================== */
+
+
+/* =============================
+1400px
+============================= */
+
+@media(max-width:1400px){
+
+.container{
+
+    width:95%;
+
+}
+
+}
+
+
+/* =============================
+1200px
+============================= */
+
+@media(max-width:1200px){
+
+.hero h1{
+
+    font-size:48px;
+
+}
+
+.section-title h2{
+
+    font-size:38px;
+
+}
+
+.booking-wrapper{
+
+    grid-template-columns:1fr;
+
+}
+
+}
+
+
+/* =============================
+992px
+============================= */
+
+@media(max-width:992px){
+
+.section{
+
+    padding:80px 0;
+
+}
+
+.hero-container{
+
+    grid-template-columns:1fr;
+
+    text-align:center;
+
+    gap:50px;
+
+}
+
+.hero-buttons{
+
+    justify-content:center;
+
+}
+
+.hero-image{
+
+    order:-1;
+
+}
+
+.stats-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.services-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.why-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.departments-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.doctors-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.gallery-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.contact-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+.footer-grid{
+
+    grid-template-columns:repeat(2,1fr);
+
+}
+
+}/* =============================
+768px
+============================= */
+
+@media(max-width:768px){
+
+.top-bar{
+
+    display:none;
+
+}
+
+.mobile-menu{
+
+    display:flex;
+
+}
+
+.navbar{
+
+    position:absolute;
+
+    top:100%;
+
+    right:0;
+
+    width:100%;
+
+    background:#fff;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.1);
+
+    display:none;
+
+}
+
+.navbar.active{
+
+    display:block;
+
+}
+
+.nav-menu{
+
+    flex-direction:column;
+
+    padding:25px;
+
+    gap:20px;
+
+}
+
+.header-button{
+
+    display:none;
+
+}
+
+.hero{
+
+    min-height:auto;
+
+    padding:120px 0 80px;
+
+}
+
+.hero h1{
+
+    font-size:40px;
+
+}
+
+.section-title h2{
+
+    font-size:32px;
+
+}
+
+.form-row{
+
+    grid-template-columns:1fr;
+
+}
+
+.stats-grid,
+
+.services-grid,
+
+.why-grid,
+
+.departments-grid,
+
+.doctors-grid,
+
+.gallery-grid,
+
+.contact-grid,
+
+.footer-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.medical-form{
+
+    padding:25px;
+
+}
+
+.footer{
+
+    text-align:center;
+
+}
+
+.footer-social{
+
+    justify-content:center;
+
+}
+
+}/* =============================
+576px
+============================= */
+
+@media(max-width:576px){
+
+.container{
+
+    width:92%;
+
+}
+
+.hero h1{
+
+    font-size:30px;
+
+}
+
+.hero p{
+
+    font-size:15px;
+
+}
+
+.section{
+
+    padding:70px 0;
+
+}
+
+.section-title h2{
+
+    font-size:26px;
+
+}
+
+.section-title p{
+
+    font-size:15px;
+
+}
+
+.btn-primary,
+
+.btn-secondary{
+
+    width:100%;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.stat-card,
+
+.service-card,
+
+.department-card,
+
+.doctor-card,
+
+.contact-card{
+
+    padding:25px;
+
+}
+
+.doctor-image img{
+
+    height:280px;
+
+}
+
+.gallery-grid img{
+
+    height:220px;
+
+}
+
+.floating-whatsapp{
+
+    width:55px;
+
+    height:55px;
+
+    left:15px;
+
+    bottom:15px;
+
+}
+
+.scroll-top{
+
+    width:50px;
+
+    height:50px;
+
+    right:15px;
+
+    bottom:15px;
+
+}
+
+}/* =============================
+400px
+============================= */
+
+@media(max-width:400px){
+
+.hero h1{
+
+    font-size:26px;
+
+}
+
+.hero-subtitle{
+
+    font-size:13px;
+
+}
+
+.section-title h2{
+
+    font-size:22px;
+
+}
+
+.btn-primary,
+
+.btn-secondary{
+
+    padding:14px;
+
+    font-size:15px;
+
+}
+
+.logo img{
+
+    width:140px;
+
+}
+
+}
